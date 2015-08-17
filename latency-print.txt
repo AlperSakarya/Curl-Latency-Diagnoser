@@ -1,0 +1,15 @@
+\n
+Timing:\n
+DNS Resolution Time:%{time_namelookup}\n
+TCP Handshake:%{time_connect}\n
+SSL Handshake:%{time_appconnect}\n
+time_pretransfer:%{time_pretransfer}\n
+time_redirect:%{time_redirect}\n
+time_starttransfer:%{time_starttransfer}\n
+---------------------------------------------\n
+Total Time spent:%{time_total}\n
+\n
+HTTP Details:\n
+HTTP Status Code:%{http_code}\n
+Request Size:%{size_request}\n
+\n
