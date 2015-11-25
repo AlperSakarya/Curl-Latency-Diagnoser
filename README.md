@@ -9,7 +9,7 @@ Combination of curl options for diagnosing application latency behavior over net
 - replace google.com with an IP or the domainname you like to test
 
 - Print results to screen in one second loops:<br>
-```while true; do echo -n `date`; curl -soL /dev/null -w@latency-print.txt google.com ; sleep 1; done ```
+```while true; do echo -n `date`; curl -sLo /dev/null -w@latency-print.txt google.com ; sleep 1; done ```
 
 - Print results to a file(latency-results.txt) for future usage in one second loops:<br>
-```while true; do echo -n `date`; curl -soL /dev/null -w@latency-print.txt google.com ; sleep 1; done | tee latency-results.txt```
+```while true; do echo -n `date`; curl -sLo /dev/null -w@latency-print.txt google.com ; sleep 1; done | tee latency-results.txt```
